@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: customer-api
-        image: company/customer-api:1.0.0
+        image: walmart/customer-api:1.0.0
 
         ports:
         - containerPort: 8080
